@@ -33,6 +33,11 @@ export default defineConfig({
           lang: 'es',
         },
 
+        'bn': {
+          label: 'বাংলা', //Bengali
+          lang: 'bn',
+        },
+
         // 'fr': {
         //   label: 'French', //French
         //   lang: 'fr',
@@ -69,7 +74,8 @@ export default defineConfig({
             'vi': 'Chung',
             'zh-CN': '通用',
             'es': 'General',
-	           'ru': 'Общее'
+	           'ru': 'Общее',
+            'bn': 'সাধারণ'
           },
           autogenerate: { directory: 'general' },
         },
