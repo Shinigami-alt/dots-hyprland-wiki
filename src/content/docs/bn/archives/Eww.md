@@ -8,31 +8,31 @@ sidebar:
 lastUpdated: 2024-02-18
 ---
 
-:::danger[Alert]
-These sets of configs are no longer maintained. We recommend against using them.
+:::danger[সতর্কতা]
+এই গুচ্ছ কনফিগ আর বজায় রাখা হচ্ছে না। আমরা এদের ব্যাবহার না করতে সুপারিশ করি।
 :::
 
-# Description
-Several sets of configs, including `windoes`, `hybrid` and `NovelKnock`, etc.
+# বর্ণনা
+কয়েক গুচ্ছ কনফিগ, এমনকি `windoes`, `hybrid` এবং `NovelKnock`, ইত্যাদি।
 # Installation
-- Dependencies: See branch-specific dependency list
-- Copy these
-    - `.config`, `.local` to your home folder
-    - Folders in `.local/share/icons` to your `/usr/share/icons`
-    - Stuff in `Import manually` folder if you need them
+- দিপেন্দেন্সিগুচ্ছ: শাখা নির্দিষ্ট দিপেন্দেন্সি তালিকা দেখুন।
+- এগুলো কপি করুন
+    - `.config`, `.local` আপনার গৃহ ফলদারে
+    - `.local/share/icons` তে থাকা ফলদার আপনার `/usr/share/icons` তে
+    - `Import manually`তে থাকা জিনিসপাতি যদি আপনার দরকার পরে
 
- ## Performance
-|  ⌄  | Do use | Not recommended | Notes                 |
+ ## দক্ষতা
+|  ⌄  | ব্যাবহার করুন | রেকমেন্দ করি না | Notes                 |
 | --- | ------ | ----------- | ------------------------- |
-| Kernel |     | cachyos, xanmod | Don't abuse power savers. Also I'm not sure what the hell I'm saying - this is just from personal experience. |
-| Login shell  | bash/zsh | fish | It's okay to use fish in a terminal - that's what end_4 does |
+| Kernel |     | cachyos, xanmod | পাওয়ার সেভার উতিরিক্ত ব্যাবহার করিয়েন না। এবং আমি ঠিক বুঝতেসি না আমি কি বলতেছি - এটা সুধু আমার বাস্তপ অভিজ্ঞতা থেকে বলা। |
+| Login shell  | bash/zsh | fish | টার্মিনাল এ ব্যাবহার করায় সমস্যা নেই - end_4 এটাই করে থাকে। |
 
  ## Setup
- - eww configs only work properly in `~/.config/eww`
- - Start eww with `eww daemon`
- - To open top bar: `eww open bar`
- - To open the Windows bar: `eww open winbar` (`windoes`/`hybrid` branch)
- - To open the bottom line: `eww open bottomline` (so that the music window opens if you click the bottom edge of the screen)
+ - একমাত্র `~/.config/eww` তে ইউউ কনফিগগুলো কাজ করে
+ - `eww daemon` দিয়ে ইউউ শুরু করুন
+ - উপরের বার খলার জন্য: `eww open bar`
+ - উইন্দস বার খলার জন্য: `eww open winbar` (`windoes`/`hybrid` শাখা)
+ - নিম্ন লাইন খলার জন্য: `eww open bottomline` (যাতে আপনি স্ক্রিন এর নিম্ন অংশ ক্লিক করলে গান এর উইন্ডটা খুলে)
  - Open the overview (middle-click workspaces) and wait 10 seconds (for it to generate app search cache, or icons won't show properly)
  ## Usage
  - Music controls: Middle-click for Play/Pause, Right-click for Next track, scroll to change volume
