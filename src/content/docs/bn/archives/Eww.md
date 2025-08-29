@@ -1,9 +1,9 @@
 ---
-title: Eww (multiple)
+title: Eww (একাধিক)
 layout: /src/layouts/autonum.astro
 sidebar:
   badge:
-    text: Deprecated
+    text: আবছিত
     variant: caution
 lastUpdated: 2024-02-18
 ---
@@ -22,25 +22,25 @@ lastUpdated: 2024-02-18
     - `Import manually`তে থাকা জিনিসপাতি যদি আপনার দরকার পরে
 
  ## দক্ষতা
-|  ⌄  | ব্যাবহার করুন | রেকমেন্দ করি না | Notes                 |
+|  ⌄  | ব্যাবহার করুন | রেকমেন্দ করি না | বিশেষ দ্রষ্টব্য                 |
 | --- | ------ | ----------- | ------------------------- |
 | Kernel |     | cachyos, xanmod | পাওয়ার সেভার উতিরিক্ত ব্যাবহার করিয়েন না। এবং আমি ঠিক বুঝতেসি না আমি কি বলতেছি - এটা সুধু আমার বাস্তপ অভিজ্ঞতা থেকে বলা। |
 | Login shell  | bash/zsh | fish | টার্মিনাল এ ব্যাবহার করায় সমস্যা নেই - end_4 এটাই করে থাকে। |
 
- ## Setup
+ ## সেটআপ
  - একমাত্র `~/.config/eww` তে ইউউ কনফিগগুলো কাজ করে
  - `eww daemon` দিয়ে ইউউ শুরু করুন
  - উপরের বার খলার জন্য: `eww open bar`
  - উইন্দস বার খলার জন্য: `eww open winbar` (`windoes`/`hybrid` শাখা)
  - নিম্ন লাইন খলার জন্য: `eww open bottomline` (যাতে আপনি স্ক্রিন এর নিম্ন অংশ ক্লিক করলে গান এর উইন্ডটা খুলে)
- - Open the overview (middle-click workspaces) and wait 10 seconds (for it to generate app search cache, or icons won't show properly)
- ## Usage
- - Music controls: Middle-click for Play/Pause, Right-click for Next track, scroll to change volume
- - To open the Overview, middle/right-click the workspace indicators or run `eww open overview`
- - In overview, type to search apps (see more below)
- ## Search
- - Type to search apps
- - Type math (must begin with number) to calculate using `qalc`
+ - ওভারভিউ খুলুন (মদ্ধ-ক্লিক অয়ারক্সপেস) এবং ১০ সেকেন্ড এর জন্য অপেক্ষা করুন (তা অ্যাপ সন্ধান ক্যাশ তইরি করার জন্য, নাহলে আইকন ঠিকমত দেখাবে না)
+ ## ব্যাবহারিকতা
+ - গান নিয়ন্ত্রণ: বাজা/থামা jonno মদ্ধ-ক্লিক, পরবর্তী গান এর জন্য ডান-ক্লিক, আওয়াজ বাড়া বা কমানর জন্য স্ক্রল
+ - ওভারভিউ খলার জন্য অয়ারক্সস্পেস নির্দেশককে মদ্ধ/ডান-ক্লিক করুন বা `eww open overview` চালান
+ - ওভারভিউ এর মদ্ধে, অ্যাপ খজার জন্য টাইপ করুন (নিছে আর দেখুন)
+ ## সন্ধান
+ - অ্যাপ খজার জন্য টাইপ করুন
+ - `qalc` ব্যেবহার করে গণনা করার জন্য অংক টাইপ করুন (সংখ্যা দিয়ে শুরু করতে হবে)
  - `>save THEME`: Saves current colorscheme, with THEME as the name.
  - `>load THEME`: Loads a saved theme. Available themes will be shown as you type.
  - `>music`: Get colorscheme from current media thumbnail
