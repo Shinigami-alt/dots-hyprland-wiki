@@ -1,10 +1,10 @@
 ---
 title: Showcase
-lastUpdated: 2024-02-18
+lastUpdated: 2025-08-30
 ---
 
 <div align="center">
-    <h1>Maintained</h1>
+    <h1>বজায়িত</h1>
 </div>
 
 
@@ -26,18 +26,18 @@ lastUpdated: 2024-02-18
 ---
 
 <div align="center">
-    <h1>Unmaintained</h1>
+    <h1>আবজায়িত</h1>
 </div>
 
-:::caution[Warning]
-Stuff below:
-- Currently, they do NOT work (see [#99](https://github.com/end-4/dots-hyprland/issues/99))
-- The pics are here mainly for your viewing pleasure
-- The files are still available, feel free to grab them from [`archive`](https://github.com/end-4/dots-hyprland/tree/archive) branch if you're willing to see some spaghetti and troubleshoot
+:::caution[সতর্কতা]
+নিচের জিনিসগুলো:
+- বর্তমানে এরা কাজ করে না (দেখুন [#99](https://github.com/end-4/dots-hyprland/issues/99))
+- ছবিগুলো শুধুমাত্র আপনার দেখার আননদের জন্য
+- ফাইলগুলো এখন আছে, তাদের [`archive`](https://github.com/end-4/dots-hyprland/tree/archive) শাখা থেকে নিতে পারেন যদি আপনি হযবরল দেখতে এবং নিজে ঠিক করতে প্রস্তুত
 :::
 
-:::tip[Tip]
-Click image to view showcase videos.
+:::tip[উপদেশ]
+সোকেস ভিডিও দেকাহ্র জন্য ছবিতে ক্লিক করুন।
 :::
 
 ## m3ww

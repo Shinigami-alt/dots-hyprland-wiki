@@ -5,7 +5,7 @@ sidebar:
   badge:
     text: আবছিত
     variant: caution
-lastUpdated: 2024-02-18
+lastUpdated: 2025-08-30
 ---
 
 :::danger[সতর্কতা]
@@ -28,8 +28,8 @@ lastUpdated: 2024-02-18
 | Login shell  | bash/zsh | fish | টার্মিনাল এ ব্যাবহার করায় সমস্যা নেই - end_4 এটাই করে থাকে। |
 
  ## সেটআপ
- - একমাত্র `~/.config/eww` তে ইউউ কনফিগগুলো কাজ করে
- - `eww daemon` দিয়ে ইউউ শুরু করুন
+ - একমাত্র `~/.config/eww` তে eww কনফিগগুলো কাজ করে
+ - `eww daemon` দিয়ে eww শুরু করুন
  - উপরের বার খলার জন্য: `eww open bar`
  - উইন্দস বার খলার জন্য: `eww open winbar` (`windoes`/`hybrid` শাখা)
  - নিম্ন লাইন খলার জন্য: `eww open bottomline` (যাতে আপনি স্ক্রিন এর নিম্ন অংশ ক্লিক করলে গান এর উইন্ডটা খুলে)
@@ -41,12 +41,12 @@ lastUpdated: 2024-02-18
  ## সন্ধান
  - অ্যাপ খজার জন্য টাইপ করুন
  - `qalc` ব্যেবহার করে গণনা করার জন্য অংক টাইপ করুন (সংখ্যা দিয়ে শুরু করতে হবে)
- - `>save THEME`: Saves current colorscheme, with THEME as the name.
- - `>load THEME`: Loads a saved theme. Available themes will be shown as you type.
- - `>music`: Get colorscheme from current media thumbnail
- - `>wall`: Get colorscheme from wallpaper located in `~/.config/eww/images/wallpaper/wallpaper`
- - `>light`: Remember to use light mode for next color generations
- - `>dark`: Remember to use dark mode for next color generations
- - `>one`: Remember to use only one color for bar icons for next color generations
- - `>multi`: Remember to use many colors for bar icons for next color generations
- - `>r`: Reload (kills and relaunches eww with the default bar)
+ - `>save THEME`: বর্তমান রং পরিকল্পনা সংরক্ষণ করে, THEME নাম হিসেবে ব্যাবহার হবে।
+ - `>load THEME`: সংরক্ষণ করা থিম আনে। লভ্য থিম টাইপ করার সাথে দেখান হবে।
+ - `>music`: বর্তমান মিডিয়া থাম্নেল থেকে রং পরিকল্পনা নিন
+ - `>wall`: `~/.config/eww/images/wallpaper/wallpaper` এ থাকা ওয়ালপেপার থেকে রং পরিকল্পনা নিন
+ - `>light`: পরবর্তী রং গঠনে আলো মোদ ব্যাবহার করবে
+ - `>dark`: পরবর্তী রং গঠনে অন্ধকার মোদ ব্যাবহার করবে
+ - `>one`: পরবর্তী রং গঠনে বার আইকনদের জন্য শুধু একটি রং ব্যেবহার করবে
+ - `>multi`: পরবর্তী রং গঠনে বার আইকনদের জন্য একাধিক রং ব্যাবহার করবে
+ - `>r`: রিলোড (eww বন্ধ করে এবং সাধারণ বার নিয়ে পুনরায় চালু করে)
